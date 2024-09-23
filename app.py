@@ -52,6 +52,15 @@ def signout(username,email):
     return render_template('logout.html',name=username,email=email) 
 
 
+@app.route('/jinja')
+def jinja():
+
+
+    # sub = ['math','science','bio']
+    user_details = {"username":'Radhey',"email":'raj@gmail.com','city':'jaipur','state':'rajasthan'}
+    x = 2
+    return render_template('jinja.html',sub =user_details,x=x)
+
     
 
 
