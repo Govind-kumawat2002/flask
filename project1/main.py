@@ -5,6 +5,10 @@ app=Flask(__name__)
 @app.route('/')
 def form():
     return render_template('form.html')
+@app.route('/home')
+def home():
+    # return render_template("hello babu")
+    return ("hello sir ")
 @app.route('/predict',methods = ['GET','POST'])
 def predict():
     if request.method =='POST':
