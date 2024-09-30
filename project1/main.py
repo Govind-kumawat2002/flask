@@ -8,7 +8,7 @@ def form():
 @app.route('/home')
 def home():
     # return render_template("hello babu")
-    return ("hello sir ")
+    return ("hello sir mi")
 @app.route('/predict',methods = ['GET','POST'])
 def predict():
     if request.method =='POST':
