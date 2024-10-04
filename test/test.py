@@ -17,13 +17,16 @@ def predict():
     if request.method=="POST":
         user1 =request.form['username']
         password1 = request.form['password']
-        a=server.cursor()
+        a=server.cursor()  # cursore as memory that is hold of data 
 
 
+        # query = 'select *from logine'
+        # query= 'insert into logine(user,password)values(%s,%s)'    
         query = 'select *from logine'
-        query= 'insert into logine(user,password)values(%s,%s)'
-        values= (user1,password1)
-        a.execute(query,values)
+        query= 'insert into logine(user,password)values(%(user)s,%(password)s)'
+        data = {"password":password1,"user":user1}   # jb apn dict pass krte hai or random pass kr ste hai 
+        # values= (user1,password1)
+        a.execute(query,data)
         server.commit()
        
 
