@@ -48,6 +48,7 @@ def predict():
         conn.commit()
         mysql_cursor.close()
         conn.close()
+        print("hello ")
 
         
 
