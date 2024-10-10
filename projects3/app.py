@@ -49,6 +49,7 @@ def predict():
         mysql_cursor.close()
         conn.close()
         print("hello ")
+        print("jgfjgsfjgsjf")
 
         
 
