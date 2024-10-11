@@ -59,6 +59,7 @@ def predict():
         return render_template('index.html')
     
     print("hello ")
+    print("hiiii")
     
 
 
