@@ -86,14 +86,14 @@ def predict():
     
 
 
-# @app.route('/profile/<username>/<email>/<password>')
-# def profile(username, email, password):
-    # print(app.config['username'])
-    # print(app.config['useremail'])
-    # print(app.config['userpassword']) # local var acces in local block 
-    # app.config['username']=username
-    # app.config['useremail']=email
-    # app.config['userpassword']=password
+@app.route('/profile/<username>/<email>/<password>')
+def profile(username, email, password):
+    print(app.config['username'])
+    print(app.config['useremail'])
+    print(app.config['userpassword']) # local var acces in local block 
+    app.config['username']=username
+    app.config['useremail']=email
+    app.config['userpassword']=password
 
 
     # return render_template('profile.html',name=username,email=email,password=password)    
