@@ -60,6 +60,8 @@ def predict():
     
     print("hello ")
     print("hiiii")
+      print("hello ")
+    print("hiiii")
     
 
 
