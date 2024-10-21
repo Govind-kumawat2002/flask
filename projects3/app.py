@@ -58,22 +58,7 @@ def predict():
         # return redirect(url_for('profile',username =user_name,email=user_email,password=user_pass))
         return render_template('index.html')
     
-    print("hello ")
-    print("hiiii")
-      print("hello ")
-    print("hiiii")
-     print("hello ")
-    print("hiiii")
-      print("hello ")
-    print("hiiii")
-      print("hello ")
-    print("hiiii")
-      print("hello ")
-    print("hiiii")
-     print("hello ")
-    print("hiiii")
-      print("hello ")
-    print("hiiii")
+  
     
 
 
