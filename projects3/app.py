@@ -50,6 +50,8 @@ def predict():
         conn.close()
         print("hello ")
         print("jgfjgsfjgsjf")
+print("hello ")
+        print("jgfjgsfjgsjf")
 
         
 
