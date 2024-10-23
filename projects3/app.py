@@ -52,6 +52,10 @@ def predict():
         print("jgfjgsfjgsjf")
 print("hello ")
         print("jgfjgsfjgsjf")
+          print("hello ")
+        print("jgfjgsfjgsjf")
+print("hello ")
+        print("jgfjgsfjgsjf")
 
         
 
