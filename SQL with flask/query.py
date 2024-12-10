@@ -6,7 +6,7 @@ server=mc.connect(host ="13.60.207.151",
 cur=server.cursor()
 
 querry = "select *from logine"
-insert into logine(user,password,values(%(user)s,%(password)s))
+# insert into logine(user,password,values(%(user)s,%(password)s))
 
 # cur.execute(querry)
 # # print(cur.fetchone())
